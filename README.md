@@ -10,7 +10,6 @@ The icons were download from the site below using client-side javascript to coll
 https://hugeicons.com/icons
 
 ```
-
 // Create an array to store unique URLs
 let imgUrls = [];
 
@@ -34,5 +33,4 @@ extractImgUrls();
 
 // Attach an event listener to capture newly added img tags
 document.addEventListener('DOMNodeInserted', extractImgUrls);
-
 ```
