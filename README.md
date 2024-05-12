@@ -2,12 +2,11 @@
 
 These icons were created by the Hugeicons project.
 
+https://hugeicons.com/icons
+
 https://github.com/hugeicons/hugeicons-react
 
-
 The icons were download from the site below using client-side javascript to collect the URLs and `wget`.
-
-https://hugeicons.com/icons
 
 ```
 // Create an array to store unique URLs
