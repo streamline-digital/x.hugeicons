@@ -37,5 +37,5 @@ document.addEventListener('DOMNodeInserted', extractImgUrls);
 After saving the URLs to file:
 
 ```
-wget -i urls.tsv
+wget -i data/urls.tsv
 ```
