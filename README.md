@@ -6,7 +6,7 @@ https://hugeicons.com/icons
 
 https://github.com/hugeicons/hugeicons-react
 
-The icons were download from the site below using client-side javascript to collect the URLs and `wget`.
+The icons were gathered using the client-side Javascript below to collect the URLs while scrolling the entire page and `wget` to download them.
 
 ```
 // Create an array to store unique URLs
@@ -32,4 +32,10 @@ extractImgUrls();
 
 // Attach an event listener to capture newly added img tags
 document.addEventListener('DOMNodeInserted', extractImgUrls);
+```
+
+After saving the URLs to file:
+
+```
+wget -i urls.tsv
 ```
